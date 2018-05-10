@@ -1,0 +1,17 @@
+//META{"name":"Plutonium T6 Discord Theme","description":"Plutonium T6 discord theme","author":"RektInator","version":"1.0.0"}*//
+
+@import url(https://cdn.plutonium.pw/discordtheme/Plutonium.css);
+:root {
+    --transparencycolor: 0, 0, 0; /* default: 0,0,0 */
+    --transparencyalpha: 0.15; /* default: 0.15 */
+    --messagetransparency: 0; /* default: 0.5 */
+    --memberlistransparency: 0; /* default: 0 (additional darkness for member list can be changed in case a bright background makes the list hard to read)*/
+    --accentcolor: 238, 118, 0; /* default: 238, 118, 0 discord: 114,137,218 bd-blue: 58,113,193*/
+    --background: url(https://cdn.plutonium.pw/discordtheme/background.jpg); /* replace the link in url() with your own direct image link to change the background */
+    --backdrop: rgba(
+        0,
+        0,
+        0,
+        0.4
+    ); /* default: rgba(0,0,0,0.4) can also be changed to an image like --background */
+}
